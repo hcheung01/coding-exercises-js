@@ -17,7 +17,6 @@ game();
 
 LAIROTCAF
 
-
 function factorialize(num) {
 
   for(var answer=1;num>0;num--){
@@ -26,10 +25,12 @@ function factorialize(num) {
 
   return answer;
 }
+var input = prompt("input number");
+var endResult = input;
+endResult = factorialize(input);
 
-var endResult = factorialize();
-console.log(endResult + " = ");
 
+console.log(endResult + " = " + input + "!");
 
 SCRAB-BAG
 
